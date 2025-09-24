@@ -53,7 +53,7 @@ class RegistrationController extends Controller
 
             $data = $lead->toArray();
             // Send to Zapier
-            $zapierWebhook = env('ZAPIER_WEBHOOK_URL');
+            $zapierWebhook = config('app.webhook');
             $response  = Http::post($zapierWebhook, $data);
         } catch (\Exception $e) {
             return response()->json([

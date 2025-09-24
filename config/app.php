@@ -53,7 +53,7 @@ return [
     */
 
     'url' => env('APP_URL', 'http://localhost'),
-
+    'webhook' => env('ZAPIER_WEBHOOK_URL',null),
     /*
     |--------------------------------------------------------------------------
     | Application Timezone

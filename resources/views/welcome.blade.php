@@ -56,7 +56,7 @@
     <div class="relative min-h-screen w-full flex items-center flex-col justify-center p-4 md:p-8 overflow-hidden">
         <!-- Background Image -->
         <div class="absolute inset-0 bg-cover bg-center"
-            style="background-image: url('{{ asset('images/dubai.jpg') }}'); filter: saturate(0.5) contrast(1.2); opacity: 0.5;">
+            style="background-image: url('{{ asset('images/dubai.webp') }}'); filter: saturate(0.5) contrast(1.2); opacity: 0.5;">
         </div>
         <!-- Logo -->
         <div class="mb-6">

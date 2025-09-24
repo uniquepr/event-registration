@@ -19,7 +19,7 @@
     <meta property="og:title" content="Roadshow Event Registration">
     <meta property="og:description"
         content="Join us for the Roadshow Event Registration and explore exclusive investment opportunities in luxury properties across major cities.">
-    <meta property="og:image" content="{{ Vite::asset('resources/images/logos/logoWhiteBg.png') }}">
+    <meta property="og:image" content="{{ asset('images/logos/logoWhiteBg.png') }}">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
@@ -27,23 +27,23 @@
     <meta property="twitter:title" content="Roadshow Event Registration">
     <meta property="twitter:description"
         content="Join us for the Roadshow Event Registration and explore exclusive investment opportunities in luxury properties across major cities.">
-    <meta property="twitter:image" content="{{ Vite::asset('resources/images/logos/logoWhiteBg.png') }}">
+    <meta property="twitter:image" content="{{ asset('images/logos/logoWhiteBg.png') }}">
     {{-- end meta --}}
 
     <title>Roadshow Event Registration</title>
     <link rel="canonical" href="{{ url()->current() }}" />
     <!-- Favicon and touch icons -->
     <!-- General Favicon -->
-    <link rel="icon" type="image/png" href="{{ Vite::asset('resources/images/logos/favicon.png') }}" />
+    <link rel="icon" type="image/png" href="{{ asset('images/logos/favicon.png') }}" />
     <!-- Shortcut Icon for Older Browsers -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{ Vite::asset('resources/images/logos/favicon.ico') }}" />
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('images/logos/favicon.ico') }}" />
     <!-- Apple Touch Icon -->
-    <link rel="apple-touch-icon" href="{{ Vite::asset('resources/images/logos/apple-touch-icon.png') }}" />
+    <link rel="apple-touch-icon" href="{{ asset('images/logos/apple-touch-icon.png') }}" />
     <!-- Android Chrome Icons -->
     <link rel="icon" type="image/png" sizes="192x192"
-        href="{{ Vite::asset('resources/images/logos/android-chrome-192x192.png') }}" />
+        href="{{ asset('images/logos/android-chrome-192x192.png') }}" />
     <link rel="icon" type="image/png" sizes="512x512"
-        href="{{ Vite::asset('resources/images/logos/android-chrome-512x512.png') }}" />
+        href="{{ asset('images/logos/android-chrome-512x512.png') }}" />
     <!-- Favicon and touch icons -->
     <meta name="robots" content="index,follow" />
     <!-- Styles / Scripts -->
@@ -56,11 +56,11 @@
     <div class="relative min-h-screen w-full flex items-center flex-col justify-center p-4 md:p-8 overflow-hidden">
         <!-- Background Image -->
         <div class="absolute inset-0 bg-cover bg-center"
-            style="background-image: url('{{ Vite::asset('resources/images/dubai.jpg') }}'); filter: saturate(0.5) contrast(1.2); opacity: 0.5;">
+            style="background-image: url('{{ asset('images/dubai.jpg') }}'); filter: saturate(0.5) contrast(1.2); opacity: 0.5;">
         </div>
         <!-- Logo -->
         <div class="mb-6">
-            <img src="{{ Vite::asset('resources/images/logos/logo.png') }}" alt="Unique Properties"
+            <img src="{{ asset('images/logos/logo.png') }}" alt="Unique Properties"
                 class="h-8 mx-auto lg:mx-0 relative z-10">
         </div>
         <!-- Main Content & Form Container -->
@@ -85,19 +85,19 @@
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-white/90 mb-6">
                     <div
                         class="flex flex-row justify-center text-start border border-white/20 p-2 rounded-lg bg-black/20 backdrop-filter backdrop-blur-lg shadow-xl">
-                        <img src="{{ Vite::asset('resources/images/exclusive.png') }}" alt="Exclusive Access"
+                        <img src="{{ asset('images/exclusive.png') }}" alt="Exclusive Access"
                             class="h-10 w-10 me-2">
                         <p class="font-bold text-sm">Exclusive <br>Access</p>
                     </div>
                     <div
                         class="flex flex-row justify-center text-start border border-white/20 p-2 rounded-lg g-black/20 backdrop-filter backdrop-blur-lg shadow-xl">
-                        <img src="{{ Vite::asset('resources/images/insights.png') }}" alt="Expert Insights"
+                        <img src="{{ asset('images/insights.png') }}" alt="Expert Insights"
                             class="h-10 w-10 me-2">
                         <p class="font-bold text-sm">Expert <br>Insights</p>
                     </div>
                     <div
                         class="flex flex-row justify-center text-start border border-white/20 p-2 rounded-lg g-black/20 backdrop-filter backdrop-blur-lg shadow-xl">
-                        <img src="{{ Vite::asset('resources/images/consultation.png') }}" alt="Direct Consultations"
+                        <img src="{{ asset('images/consultation.png') }}" alt="Direct Consultations"
                             class="h-10 w-10 me-2">
                         <p class="font-bold text-sm">Direct <br>Consultations</p>
                     </div>

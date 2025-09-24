@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import "./fonts/hkgrotesk/stylesheet.css";
+@import "./fonts/larken/stylesheet.css";
+@import 'intl-tel-input/build/css/intlTelInput.css';
+@theme {
+    --font-sans: 'HK Grotesk', sans-serif;
+    --font-serif: 'Larken', serif;
+    --color-primary: #0e1c2c;
+    --color-secondary: #D1CCBD;
+}
+.iti { width: 100%;
+--iti-border-color: #5b5b5b;
+    --iti-dialcode-color: #999999;
+    --iti-dropdown-bg: #0d1117;
+    --iti-arrow-color: #aaaaaa;
+    --iti-hover-color: #30363d;
+ }

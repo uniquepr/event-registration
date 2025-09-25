@@ -53,7 +53,7 @@
 <body class="bg-primary font-sans text-white antialiased">
 
     <!-- Hero Section with Background Image -->
-    <div class="relative min-h-screen w-full flex items-center flex-col justify-center p-4 md:p-8 overflow-hidden">
+    <div class="relative min-h-screen w-full flex items-center flex-col justify-between p-4 md:p-8 overflow-hidden">
         <!-- Background Image -->
         <div class="absolute inset-0 bg-cover bg-center"
             style="background-image: url('{{ asset('images/dubai.webp') }}'); filter: saturate(0.5) contrast(1.2); opacity: 0.5;">
@@ -64,8 +64,7 @@
                 class="h-8 mx-auto lg:mx-0 relative z-10">
         </div>
         <!-- Main Content & Form Container -->
-        <div
-            class="relative mb-4 z-10 w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-center space-y-8 lg:space-y-0 lg:space-x-12 p-6 md:p-12 rounded-2xl backdrop-filter backdrop-blur-xs bg-black/20 border border-white/10 shadow-2xl">
+        <div class="relative mb-6 z-10 w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-center space-y-8 lg:space-y-0 lg:space-x-12 p-6 md:p-12 rounded-2xl backdrop-filter backdrop-blur-xs bg-black/20 border border-white/10 shadow-2xl">
 
             <!-- Left Side: Content & Benefits -->
             <div class="flex-1 text-center lg:text-left">
@@ -234,7 +233,7 @@
         </div>
 
         <!-- Footer -->
-        <div class="absolute bottom-4 text-center text-sm text-white">
+        <div class="text-center text-sm text-white">
             <p>&copy; {{ date('Y') }} Unique Properties. All Rights Reserved.</p>
         </div>
     </div>

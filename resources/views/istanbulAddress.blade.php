@@ -162,6 +162,7 @@
                 <form id="bookingForm" class="space-y-4" action="{{ route('register.store') }}" method="POST">
                     <!-- Name Field -->
                     <div>
+                        <input type="hidden" name="eventName" id="eventName" value="address-istanbul" required>
                         <input type="text" id="name" name="name" placeholder="First Name"  required
                             class="w-full p-3 rounded-lg bg-gray-700/50 border border-white/20 text-white 
                    placeholder-gray-400 focus:outline-none focus:border-[#D1CCBD] transition-colors">

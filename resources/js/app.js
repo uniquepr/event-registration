@@ -3,8 +3,9 @@ import intlTelInput from 'intl-tel-input';
 
 
 document.querySelectorAll('input[type="tel"]').forEach(input => {
+    const initialCountry = input.dataset.country || "de"; 
     const iti = intlTelInput(input, {
-        initialCountry: "de",
+        initialCountry: initialCountry,
         separateDialCode: true,
         loadUtils: () => import("intl-tel-input/utils"),
     });

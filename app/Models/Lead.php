@@ -12,6 +12,7 @@ class Lead extends Model
         'email',
         'phone',
         'date_city',
+        'eventName',
         'privacy',
         'submitted_at',
         'page_url',

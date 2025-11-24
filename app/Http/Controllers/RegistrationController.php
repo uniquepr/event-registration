@@ -29,6 +29,7 @@ class RegistrationController extends Controller
             'phone'     => 'required|string',
             'date_city' => 'required|string',
             'privacy'   => 'accepted',
+            'eventName'   => 'required|string',
         ], $messages);
 
         if ($validator->fails()) {
@@ -46,6 +47,7 @@ class RegistrationController extends Controller
                 'email' => $request->email,
                 'phone' => $request->fullPhone ? $request->fullPhone : $request->phone,
                 'date_city' => $request->date_city,
+                'eventName' => $request->eventName,
                 'privacy' => $request->privacy ? 'agreed' : 'not agreed',
                 'submitted_at' => now(),
                 'page_url' => url()->previous(),

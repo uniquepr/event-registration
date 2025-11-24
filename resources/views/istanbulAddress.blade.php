@@ -8,7 +8,7 @@
 
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Primary Meta Tags -->
-    <meta name="title" content="Roadshow Event Registration">
+    <meta name="title" content="Address Istanbul | Roadshow Event Registration">
     <meta name="keyword"
         content="Roadshow, Event, Registration, Dubai Real Estate, Investment Opportunities, Luxury Properties, London, Paris, Zurich">
     <meta name="description"
@@ -31,7 +31,7 @@
     <meta property="twitter:image" content="{{ asset('images/logos/logoWhiteBg.png') }}">
     {{-- end meta --}}
 
-    <title>Roadshow Event Registration</title>
+    <title>Address Istanbul | Roadshow Event Registration</title>
     <link rel="canonical" href="{{ url()->current() }}" />
     <!-- Favicon and touch icons -->
     <!-- General Favicon -->
@@ -77,7 +77,7 @@
                 </h1>
 
                 <!-- Sub-headline -->
-                <p class="text-base mb-6  mx-auto lg:mx-0 text-white/80">Step into the world of luxury at the Binghatti Roadshow in the heart of Cyprus. Meet with Dubai's leading property experts, and explore a hand-picked portfolio of premium Binghatti properties, from stylish apartments to exclusive penthouses.
+                <p class="text-base mb-6  mx-auto lg:mx-0 text-white/80">Step into the world of Dubai luxury at our exclusive Roadshow in the heart of Istanbul. Meet Dubai’s leading property experts and explore a curated collection of high-ROI investment opportunities — from premium waterfront residences to luxury apartments and villas — all designed for long-term growth and Golden Visa eligibility.
                 </p>
                 <!-- Benefits -->
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-white/90 mb-6">
@@ -142,8 +142,8 @@
                         <!-- Location 1 -->
                         <div
                             class="flex-1 p-2 rounded-lg border border-white/20 backdrop-filter backdrop-blur-sm bg-primary/20 text-center">
-                            <p class="text-sm">📅 Dates: 7–8 December 2025</p>
-                            <p class="text-xs text-white/60">📍 Location: Amara Hotel, Cyprus</p>
+                            <p class="text-sm">📅 Dates: 13th–14th December 2025</p>
+                            <p class="text-xs text-white/60">📍 Location: Address Istanbul</p>
                         </div>
                         <!-- Location 2 -->
                         <!--<div-->
@@ -179,7 +179,7 @@
                     <!-- Phone Field -->
                     <div>
                         <input type="hidden" id="fullPhone" name="fullPhone">
-                        <input type="tel" id="phone" name="phone" placeholder="Contact Number"  data-country='cy' required
+                        <input type="tel" id="phone" name="phone" placeholder="Contact Number" data-country='tr' required
                             class="w-full p-3 rounded-lg bg-gray-700/50 border border-white/20 text-white 
                    placeholder-gray-400 focus:outline-none focus:border-[#D1CCBD] transition-colors">
                    <p class="mt-1 text-sm text-red-400 hidden" id="error-phone">Phone is required.</p>
@@ -191,8 +191,8 @@
                             class="w-full p-3 rounded-lg bg-gray-700/50 border border-white/20 text-white 
                    focus:outline-none focus:border-[#D1CCBD] transition-colors">
                             <option value="" disabled selected>Date of Visit</option>
-                            <option value="7 Dec 2025">7 Dec 2025</option>
-                            <option value="8 Dec 2025">8 Dec 2025</option>
+                            <option value="13 Dec 2025">13 Dec 2025</option>
+                            <option value="14 Dec 2025">14 Dec 2025</option>
                         </select>
                         <p class="mt-1 text-sm text-red-400 hidden" id="error-date">Please select date of
                             visit.</p>
